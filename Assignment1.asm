@@ -1,3 +1,4 @@
+;Write an X86/64 ALP to accept five 64 bit Hexadecimal numbers from user and store them in an array and display the accepted numbers.
 %macro print 2
       mov rax,1         ;sys call to write
       mov rdi,1         ;assigning 1 to file descripter(stdout)

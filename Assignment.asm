@@ -1,3 +1,4 @@
+;Write an X86/64 ALP to accept a string and to display its length.
 %macro print 2
       mov rax,1                                                 ;sys call to read
       mov rdi,1                                                 ;assigning 1 to file descripter(stdout)
